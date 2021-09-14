@@ -57,6 +57,29 @@ function App() {
     },
     {
       id: 3,
+      question:
+        "In the game of ludo the discs or tokens are of how many colours?",
+      answers: [
+        {
+          text: "One",
+          correct: true,
+        },
+        {
+          text: "Two",
+          correct: false,
+        },
+        {
+          text: "Three",
+          correct: false,
+        },
+        {
+          text: "Four",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 4,
       question: "Who played the character of harry potter in movie?",
       answers: [
         {
@@ -74,6 +97,28 @@ function App() {
         {
           text: "Daniel Red Cliff",
           correct: true,
+        },
+      ],
+    },
+    {
+      id: 5,
+      question: "In which of these two sports is the term ‘free hit’ used?",
+      answers: [
+        {
+          text: "Football, Squash",
+          correct: false,
+        },
+        {
+          text: "Hockey, Cricket",
+          correct: true,
+        },
+        {
+          text: "Badminton, Cricket",
+          correct: false,
+        },
+        {
+          text: "Badminton, Tennis",
+          correct: false,
         },
       ],
     },
